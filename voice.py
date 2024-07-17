@@ -1,18 +1,10 @@
-''' project Name----> AI Assistant
-    description of project: Our AI Assistant greets at the start of the application, tells time, performs google search, find things on wikipedia and prints the 
-    output in the terminal,opens stackoverflow and youtube,hear jokes, we can also store notes in a file (notes are input and stored in file) and can also hear the stored notes
-    using our AI Assistant. We can change the voices from male to female and vice versa'''
-
-
-
-
 import pyttsx3 #pip install pyttsx3
 import speech_recognition as sr #pip install speechRecognition
 import datetime
 import wikipedia #pip install wikipedia
 import webbrowser
 import os # interactions with os
-import pyjokes 
+import pyjokes #pip install pyjokes
 
 
 engine = pyttsx3.init('sapi5')   #text to speech (pyttsx3) {sapi5 for win, nsss for mac}
